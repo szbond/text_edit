@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base target="_blank">
+    <title>首页</title>
+    <!--
+    <script src="../dist/main.js"></script>
+    
+    <script src="/main.js"></script>
+    -->
+    <!--插件自动插入main.js-->
+</head>
+<body>
+
+    <!--容器，放入虚拟DOM-->
+    <div id = "app" ></div>
+    <div class="center">
+        <h1>Markdown</h1>
+        <input type="text" id="title" placeholder="input title here ">
+        <div class = "menu">
+
+            <p id="autoSave">auto save</p>
+            <p id = "save">save</p>
+            <p id = "load">load</p>
+            <p>count:&nbsp;</p>
+            <p id = "textCount">0</p>
+        </div>
+        
+        <form id = "form" name = "artl">
+
+            <textarea name="text" id="text"></textarea>
+        </form>
+        
+    </div>
+    
+    
+<script type="text/javascript" src="js/vendors.js"></script><script type="text/javascript" src="js/bundle.js"></script></body>
+</html>
